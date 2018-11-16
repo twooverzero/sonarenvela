@@ -15,7 +15,7 @@
       color:black;
     }
     h1{
-      font-size:28px;
+      font-size:20px;
       text-align:center;
       border-bottom:1px solid gray;
       margin:0;
@@ -23,6 +23,18 @@
     }
     body{
       margin:0;
+      text-align : center
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    ul{
+      padding-left:30px;
+    }
+    #article{
+      padding-left: 30px;
+      padding-left: 30px;
     }
   </style>
 
@@ -41,39 +53,39 @@
 
 <body>
   <h1 style="text-align : center"><a href="index.html">Sonar en vela</a></h1>
-  <ol>
-    <li><a href="about.html" class="menu" id="active">About</a></li>
-    <li><a href="music_and_lyrics.html" class="menu">Music and Lyrics</a></li>
-    <li><a href="live.html" class="menu">Live</a></li>
-    <li><a href="notes.html" class="menu">Notes</a></li>
-  </ol>
+  <div id="grid">
+    <ul>
+      <li><a href="about.html" class="menu" id="active">About</a></li>
+      <li><a href="music_and_lyrics.html" class="menu">Music and Lyrics</a></li>
+      <li><a href="live.html" class="menu">Live</a></li>
+      <li><a href="notes.html" class="menu">Notes</a></li>
+    </ul>
+  </div>
 
 
-  <h2>About</h2>
-  <img src="band_members_2015.jpg" width="50%">
-  <h3>Sonar en vela</h3>
-  <p>
-    The name "Sonar en vela" means "Performing thorugh the night" in spanish.
-  </p>
-  <p>
-    "Sonar en vela" 라는 이름른 "밤을 새워 연주하다"라는 뜻을 가진 스페인어입니다.
-  </p>
-  <h3>Beginning of the band</h3>
-  <p>
-    Band started at febuary 2014. Our first cover was "Starlight" from MUSE.
-  </p>
-  <p>
-    밴드는 2014년 2월에 시작되었습니다. 첫 합주곡은 MUSE의 Starlight이었던 것 같습니다.
-  </p>
-  <h3>Band Members</h3>
-  <p>
-    The name "Sonar en vela" means "Performing thorugh the night" in spanish.
-  </p>
-  <p>
-    "Sonar en vela" 라는 이름른 "밤을 새워 연주하다"라는 뜻을 가진 스페인어입니다.
-  </p>
-  <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
-  </p>
+
+  <div id="article">
+    <h2>About</h2>
+    <img src="band_members_2015.jpg" width="50%">
+    <h3>Sonar en vela</h3>
+    <p>
+      The name "Sonar en vela" means "Performing thorugh the night" in spanish.
+    </p>
+    <p>
+      "Sonar en vela" 라는 이름른 "밤을 새워 연주하다"라는 뜻을 가진 스페인어입니다.
+    </p>
+    <h3>Beginning of the band</h3>
+    <p>
+      Band started at febuary 2014. Our first cover was "Starlight" from MUSE.
+    </p>
+    <p>
+      밴드는 2014년 2월에 시작되었습니다. 첫 합주곡은 MUSE의 Starlight이었던 것 같습니다.
+    </p>
+    <h3>Band Members</h3>
+    <p>
+      sonar en vela is a band of 4 friends.  Yunha Choi - Main Guitar / Seungjae Kang - Vocal & Keyboard / Youngju Lee - Bass & Second Guitar / Nayoung Lee - Percussion & Engineer  to write a song that every member likes, we spend time together talking and practice play.  we like the bands below: Spangle Call Lilli Line, Casker, Kinoko Teikoku, My Bloody Valentine, My Chemical Romance, The Beatles, The Meeks...etc.
+    </p>
+  </div>
 
 
   <!--Start of Tawk.to Script-->

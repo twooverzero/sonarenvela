@@ -15,7 +15,7 @@
       color:black;
     }
     h1{
-      font-size:28px;
+      font-size:20px;
       text-align:center;
       border-bottom:1px solid gray;
       margin:0;
@@ -23,6 +23,18 @@
     }
     body{
       margin:0;
+      text-align : center
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    ul{
+      padding-left:30px;
+    }
+    #article{
+      padding-left: 30px;
+      padding-left: 30px;
     }
   </style>
 
@@ -41,14 +53,24 @@
 
 <body>
   <h1 style="text-align : center"><a href="index.html">Sonar en vela</a></h1>
-  <ol>
-    <li><a href="about.html" class="menu">About</a></li>
-    <li><a href="music_and_lyrics.html" class="menu">Music and Lyrics</a></li>
-    <li><a href="live.html" class="menu">Live</a></li>
-    <li><a href="notes.html" class="menu">Notes</a></li>
-  </ol>
-  <h2>WEB</h2>
-  <p>The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
-  </p>
+  <div id="grid">
+    
+    <ul>
+      <li><a href="about.html" class="menu">About</a></li>
+      <li><a href="music_and_lyrics.html" class="menu">Music and Lyrics</a></li>
+      <li><a href="live.html" class="menu">Live</a></li>
+      <li><a href="notes.html" class="menu">Notes</a></li>
+    </ul>
+  </div>
+
+
+  <div id="article">
+    <<p>
+      The name "Sonar en vela" means "Performing thorugh the night" in spanish.
+    </p>
+    <p>
+      "Sonar en vela" 라는 이름른 "밤을 새워 연주하다"라는 뜻을 가진 스페인어입니다.
+    </p>
+  </div>
 </body>
 </html>
